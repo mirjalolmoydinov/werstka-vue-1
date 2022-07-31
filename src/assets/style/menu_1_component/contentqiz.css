@@ -11,7 +11,6 @@
 .container_qiz {
   overflow: hidden;
   display: flex;
-  max-width: 1800px;
   height: 480px;
   background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
   border-radius: 36px;

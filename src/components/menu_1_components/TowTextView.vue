@@ -12,5 +12,6 @@ export default {
 </script>
 
 <style>
+@import '../../assets/style/menu_1_component/totext.css'
 
 </style>

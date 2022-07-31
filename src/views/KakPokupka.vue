@@ -6,6 +6,7 @@
   <ProdokView></ProdokView>
   <ContentView></ContentView>
   <TowTextView></TowTextView>
+  <FormaView></FormaView>
   </div>
 </template>
 <script>
@@ -15,6 +16,7 @@ import SliderView from '@/components/menu_1_components/SliderView.vue'
 import ProdokView from '@/components/menu_1_components/ProdokView.vue'
 import ContentView from '../components/menu_1_components/ContentView.vue'
 import TowTextView from '../components/menu_1_components/TowTextView.vue'
+import FormaView from '@/components/menu_1_components/FormaView.vue'
 export default {
 components:{
     MenuVie,
@@ -23,6 +25,7 @@ components:{
     ProdokView,
     ContentView,
     TowTextView,
+    FormaView,
 },
 }
 </script>
