@@ -1,14 +1,17 @@
 <template>
   <div id="kakpokubka">
-  <MenuVie></MenuVie>
-  <BannerView></BannerView>
-  <SliderView></SliderView>
-  <ProdokView></ProdokView>
-  <ContentView></ContentView>
-  <TowTextView></TowTextView>
-  <FormaView></FormaView>
-  <variant-dostavka-vie></variant-dostavka-vie>
-  <ByukBritanyaVie></ByukBritanyaVie>
+    <MenuVie></MenuVie>
+    <BannerView></BannerView>
+    <SliderView></SliderView>
+    <ProdokView></ProdokView>
+    <ContentView></ContentView>
+    <TowTextView></TowTextView>
+    <FormaView></FormaView>
+    <variant-dostavka-vie></variant-dostavka-vie>
+    <ByukBritanyaVie></ByukBritanyaVie>
+    <virtual-vie></virtual-vie>
+    <tow-text></tow-text>
+    <sri-card-vie></sri-card-vie>
   </div>
 </template>
 <script>
@@ -21,9 +24,13 @@ import TowTextView from '../components/menu_1_components/TowTextView.vue'
 import FormaView from '@/components/menu_1_components/FormaView.vue'
 import VariantDostavkaVie from '@/components/menu_1_components/VariantDostavkaVie.vue'
 import ByukBritanyaVie from '../components/menu_1_components/ByukBritanyaVie.vue'
+import VirtualVie from '@/components/menu_1_components/VirtualVie.vue'
+import TowText from '@/components/menu_1_components/TowText.vue'
+import SriCardVie from '@/components/menu_1_components/SriCardVie.vue'
+
 
 export default {
-components:{
+  components: {
     MenuVie,
     BannerView,
     SliderView,
@@ -33,11 +40,12 @@ components:{
     FormaView,
     VariantDostavkaVie,
     ByukBritanyaVie,
-},
+    VirtualVie,
+    TowText,
+    SriCardVie,
+  },
 }
 </script>
 
 <style>
-
-
 </style>
