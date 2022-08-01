@@ -1,13 +1,16 @@
 <template>
   <div id="app">
     <kak-pokupka></kak-pokupka>
+    <rasprodaja-tovar></rasprodaja-tovar>
   </div>
 </template>
 <script>
 import KakPokupka from '@/views/KakPokupka.vue'
+import RasprodajaTovar from './views/RasprodajaTovar.vue'
 export default{
   components:{
-    KakPokupka
+    KakPokupka,
+    RasprodajaTovar
   },
 data() {
   return {
