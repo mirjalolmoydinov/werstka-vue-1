@@ -3,8 +3,6 @@
     <menu-vie></menu-vie>
     <h1>raspradaja</h1>
 
-
-
   </div>
 </template>
 
