@@ -11,6 +11,10 @@ export default {
 </script>
 
 <style>
-@import '../../assets/style/menu_1_component/slider.css';
-
+#slider {
+  max-width: 1400px;
+  height: 893px;
+  background-color: black;
+  margin: 0 auto;
+}
 </style>
