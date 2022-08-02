@@ -11,6 +11,7 @@
     <virtual-vie></virtual-vie>
     <tow-text></tow-text>
     <sri-card-vie></sri-card-vie>
+    <banner-van-viw></banner-van-viw>
   </div>
 </template>
 <script>
@@ -25,6 +26,7 @@ import ByukBritanyaVie from "../components/menu_1_components/ByukBritanyaVie.vue
 import VirtualVie from "@/components/menu_1_components/VirtualVie.vue";
 import TowText from "@/components/menu_1_components/TowText.vue";
 import SriCardVie from "@/components/menu_1_components/SriCardVie.vue";
+import BannerVanViw from '@/components/menu_1_components/BannerVanViw.vue';
 
 export default {
   components: {
@@ -39,6 +41,7 @@ export default {
     VirtualVie,
     TowText,
     SriCardVie,
+    BannerVanViw,
   },
 };
 </script>
