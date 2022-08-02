@@ -1,31 +1,30 @@
 <template>
   <div id="app">
-    <kak-pokupka></kak-pokupka>
-    <rasprodaja-tovar></rasprodaja-tovar>
+    <MenuVie></MenuVie>
+    <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 <script>
-import KakPokupka from '@/views/KakPokupka.vue'
-import RasprodajaTovar from './views/RasprodajaTovar.vue'
-export default{
-  components:{
-    KakPokupka,
-    RasprodajaTovar
+import MenuVie from "@/components/MenuVie.vue";
+import Footer from "@/components/FooterVie.vue";
+export default {
+  components: {
+    MenuVie,
+    Footer,
   },
-data() {
-  return {
-    
-  }
-},
-}
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style>
-@import '../src/assets/style/main.css';
+@import "../src/assets/style/main.css";
 nav a.router-link-exact-active {
   color: #050505;
 }
-body{
-  background: #E5E5E5;
+body {
+  background: #e5e5e5;
 }
 </style>

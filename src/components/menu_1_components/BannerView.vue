@@ -26,7 +26,7 @@ export default {
 #banner {
   width: 100%;
   height: 680px;
-  background-color: aqua;
+
   display: flex;
   justify-content: center;
 }
