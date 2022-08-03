@@ -83,6 +83,7 @@ img.card-img-top {
 }
 
 .container_text_2 {
+  margin-top: 50px;
   width: 760px;
   height: 72px;
   font-family: "Gilroy";

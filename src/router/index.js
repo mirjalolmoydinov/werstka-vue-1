@@ -1,49 +1,49 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import KakPokupka from '../views/KakPokupka.vue'
-import ResprodajaTovar from '../views/RasprodajaTovar.vue'
-import Senna from '../views/SennaView.vue'
-import Pomosh from '../views/PomoshVie.vue'
-import Bonus from '../views/BonusVie.vue'
-import Blog from '../views/BlogVie.vue'
-import Yshyo from '../views/YshyoVie.vue'
+// import KakPokupka from '../views/KakPokupka.vue'
+// import ResprodajaTovar from '..'
+// import Senna from '../views/SennaView.vue'
+// import Pomosh from '../views/PomoshVie.vue'
+// import Bonus from '../views/BonusVie.vue'
+// import Blog from '../views/BlogVie.vue'
+// import Yshyo from '../views/YshyoVie.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component:KakPokupka
+    component:()=>import(`@/views/KakPokupka.vue`)
   },
   {
     path: '/rasprodaja',
     name: 'rasprodaja',
-    component: ResprodajaTovar
+    component:()=>import(`@/views/RasprodajaTovar.vue`)
   },
   {
     path:'/senna',
     name:'name',
-    component:Senna
+    component:()=>import(`@/views/SennaView.vue`)
   },
   {
     path:'/pomosh',
     name:'pomosh',
-    component:Pomosh
+    component:()=>import(`@/views/PomoshVie.vue`)
   },
   {
     path:'/bonus',
     name:'bonus',
-    component:Bonus
+    component:()=>import(`@/views/BonusVie.vue`)
   },
   {
     path:'/blog',
     name:'blog',
-    component:Blog
+    component:()=>import(`@/views/BlogVie.vue`)
   },
    {
     path:'/yshyo',
     name:'yshyo',
-    component:Yshyo
+    component:()=>import (`@/views/YshyoVie.vue`)
   },
 
 ]
